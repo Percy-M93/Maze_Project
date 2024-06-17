@@ -1,7 +1,5 @@
-THE MAZE PROJECT - MVP (A 3D Game Created Using SDL2)
-
+The Maze Project - MVP (A 3D Game Created Using SDL2)
 Minimum Viable Product (MVP) for the Maze Game with SDL2:
-
 Explanation:
 
 Walls:
@@ -16,7 +14,7 @@ Handle user input with SDL_Event.
 Update the player's position and orientation based on user input.
 Move:
 
-Implement basic player movement allowing movement forward, backward, left, and right within the maze.
+Implement basic player movement, allowing movement forward, backward, left, and right within the maze.
 Update the player's position according to their orientation and user input.
 Collision Detection:
 
@@ -37,25 +35,24 @@ Implement a function to load and render wall textures.
 These features form the core of a basic maze game using SDL2.
 
 Data Modelling
-
 USER STORY
 
 As an end user, I want to play a maze game created with SDL2 to enjoy solving the maze and challenging myself to improve my speed and accuracy.
 
-When starting the game, I want to see a main menu with options to start a new game, load a saved game, or quit.
-If I start a new game, I want to choose the maze's difficulty level, including its size and the number of obstacles.
-Once the game starts, I want to see the maze on the screen, controlling a character with the arrow keys. The character should move smoothly and quickly.
-I want a timer counting down the time to complete the maze and a score reflecting my progress.
-While navigating the maze, I want to collect coins or other rewards to increase my score and encounter obstacles that make it harder to reach the end.
-Upon reaching the maze's end, I want a congratulatory message displaying my final score and completion time, with an option to save the game.
-Throughout the game, I want to hear sound effects corresponding to actions like collecting coins or hitting obstacles, and background music to enhance the experience.
-Finally, I want the game to have high-quality graphics and animations, making it visually appealing and engaging.
+Starting the Game:
 
+See a main menu with options to start a new game, load a saved game, or quit.
+Choose the maze's difficulty level, including its size and the number of obstacles when starting a new game.
+Gameplay:
 
+See the maze on the screen and control a character with the arrow keys. The character should move smoothly and quickly.
+Have a timer counting down the time to complete the maze and a score reflecting my progress.
+Collect coins or other rewards to increase my score while navigating the maze.
+Encounter obstacles that make it harder to reach the end.
+Completion:
 
+Upon reaching the maze's end, see a congratulatory message displaying my final score and completion time, with an option to save the game.
+Sound and Visuals:
 
-
-
-
-
-
+Hear sound effects corresponding to actions like collecting coins or hitting obstacles, and background music to enhance the experience.
+Enjoy high-quality graphics and animations, making the game visually appealing and engaging.
